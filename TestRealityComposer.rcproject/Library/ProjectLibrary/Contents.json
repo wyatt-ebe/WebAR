@@ -1,3 +1,12 @@
 [
-
+  {
+    "libraryIdentifier" : "0b8e3ea4c42564a2adf202d2bfa52e78",
+    "format" : "model",
+    "displayName" : "king.usdz"
+  },
+  {
+    "libraryIdentifier" : "e25293bc514cabe781d3042758b1852a",
+    "format" : "model",
+    "displayName" : "kingScaledViaRealityConverter.usdz"
+  }
 ]

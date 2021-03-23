@@ -16,131 +16,117 @@
                 0,
                 9.8000001907348633
               ],
-              "identifier" : "2A0E43FC-370A-4ABF-8110-6FD907AE6E66",
+              "identifier" : "89A691D3-D26B-4DFF-91DC-9AD89C1113A2",
               "material" : "concrete",
               "overrides" : {
                 "children" : {
-                  "9E209537-2281-4C71-AB9B-C93944DEB4C1" : {
+                  "6EEC45E3-DD08-421B-880A-8554A870E456" : {
                     "overrides" : {
-                      "arguments" : [
-                        [
-                          "bubbleMaterial",
-                          {
-                            "typeName" : "String",
-                            "value" : "standard"
-                          }
-                        ],
-                        [
-                          "bubbleMaterialColor",
-                          {
-                            "typeName" : "double4",
-                            "value" : [
-                              0.20000000000000001,
-                              0.59999999999999998,
-                              1,
-                              1
-                            ]
-                          }
-                        ],
-                        [
-                          "bubbleType",
-                          {
-                            "typeName" : "String",
-                            "value" : "thought"
-                          }
-                        ],
-                        [
-                          "message",
-                          {
-                            "typeName" : "String",
-                            "value" : "Hello, world!"
-                          }
-                        ],
-                        [
-                          "messageFont",
-                          {
-                            "typeName" : "String",
-                            "value" : "Helvetica-BoldOblique"
-                          }
-                        ],
-                        [
-                          "messageMaterial",
-                          {
-                            "typeName" : "String",
-                            "value" : "standard"
-                          }
-                        ],
-                        [
-                          "messageMaterialColor",
-                          {
-                            "typeName" : "double4",
-                            "value" : [
-                              1,
-                              1,
-                              1,
-                              1
-                            ]
-                          }
-                        ],
-                        [
-                          "messageScale",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.65000000000000002
-                          }
-                        ]
-                      ],
                       "children" : {
-                        "text_1" : {
+                        "USDScene" : {
                           "overrides" : {
-                            "factory" : null,
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:e25293bc514cabe781d3042758b1852a\/kingScaledViaRealityConverter.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
                             "runtimeAttributes" : [
                               [
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "7EE342C1-A492-4EF8-B5CE-A706DC15F889"
+                                  "value" : "2650B46C-7AF7-4B69-925D-377A1C3A2BC3"
                                 }
                               ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0010000000474974513,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0010000000474974513,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0010000000474974513,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
                             ]
                           }
                         }
                       },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.QuoteBubbleAssetFactory",
-                        "version" : "1.0"
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
                       },
                       "runtimeAttributes" : [
                         [
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "AF6F7708-5874-4506-8D95-7634180342DB"
+                            "value" : "714C1948-78D5-434E-B3AB-4559794C8D7E"
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.3915729820728302,
-                        -1.5236283346098389e-09,
-                        4.1549060370016377e-07,
+                        -0.99995255470275879,
+                        8.7418641214753734e-08,
+                        3.6043388718098868e-07,
                         0,
-                        4.1547266960151319e-07,
-                        9.0553612608346157e-06,
-                        -0.39155599474906921,
+                        -3.6045020124220173e-07,
+                        5.9604520430411867e-08,
+                        -0.99999785423278809,
                         0,
-                        1.5140252385137387e-09,
-                        0.39155888557434082,
-                        9.0554276539478451e-06,
+                        -8.7422669992065494e-08,
+                        -0.99999874830245972,
+                        5.9604573721117049e-08,
                         0,
-                        0.099412091076374054,
-                        0.0060230311937630177,
-                        -0.17082440853118896,
+                        0,
+                        0.054999999701976776,
+                        -0.032499998807907104,
                         1
                       ]
                     }
-                  }
+                  },
+                  "CF8CDC2C-BF6F-4138-A7E2-FBEB02123D48" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -153,7 +139,7 @@
                   ]
                 ]
               },
-              "physicsMode" : "none",
+              "physicsMode" : "grid",
               "title" : "Scene",
               "viewTransform" : {
                 "cameraTransform" : [
@@ -165,13 +151,13 @@
                   0.99883145093917847,
                   -0.041697096079587936,
                   0,
-                  -0.50498330593109131,
-                  0.048328675329685211,
-                  0.8617749810218811,
+                  -0.50498324632644653,
+                  0.048328667879104614,
+                  0.86177486181259155,
                   0,
-                  -0.16985619068145752,
-                  0.025992413982748985,
-                  0.44227153062820435,
+                  -0.19582714140415192,
+                  0.10130816698074341,
+                  0.44871899485588074,
                   1
                 ],
                 "sceneTransform" : [
